@@ -4,6 +4,8 @@ import Warehouse from "./pages/Warehouse";
 import Inventory from "./pages/Inventory";
 import "./App.scss";
 
+console.log(process.env.PORT);
+
 function App() {
   return (
     <BrowserRouter>
